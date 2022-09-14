@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CWE Hierarchy Explorer
+Bundle-SymbolicName: com.ensoftcorp.open.cwe;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ENSOFTCORP
+Automatic-Module-Name: com.ensoftcorp.open.cwe
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.pde.core,
+ org.eclipse.osgi,
+ com.ensoftcorp.atlas;bundle-version="3.9.0",
+ com.ensoftcorp.atlas.db.implementation,
+ com.ensoftcorp.atlas.core,
+ com.ensoftcorp.atlas.db
+Import-Package: org.eclipse.core.runtime
+Bundle-Activator: com.ensoftcorp.open.cwe.Activator
+Bundle-ActivationPolicy: lazy
