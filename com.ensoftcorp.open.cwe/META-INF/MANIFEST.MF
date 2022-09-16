@@ -11,7 +11,8 @@ Require-Bundle: org.eclipse.pde.core,
  com.ensoftcorp.atlas;bundle-version="3.9.0",
  com.ensoftcorp.atlas.db.implementation,
  com.ensoftcorp.atlas.core,
- com.ensoftcorp.atlas.db
+ com.ensoftcorp.atlas.db,
+ com.ensoftcorp.atlas.ui
 Import-Package: org.eclipse.core.runtime
 Bundle-Activator: com.ensoftcorp.open.cwe.Activator
 Bundle-ActivationPolicy: lazy
